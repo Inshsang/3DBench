@@ -8,7 +8,7 @@ We introduce 3DBench, a scalable benchmark designed for evaluating 3D-LLMs cover
 
 <!-- ![Teaser](assets/teaser.jpg) -->
 <div style="text-align: center;">
-    <img src="assets/Pipeline.jpg" alt="Dialogue_Teaser" width=100% >
+    <img src="assets/pipeline.bmp" alt="Dialogue_Teaser" width=100% >
 </div>
 
 ## 🔥 News

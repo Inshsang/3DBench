@@ -25,38 +25,49 @@ We introduce 3DBench, a scalable benchmark designed for evaluating 3D-LLMs cover
 
 ## Requirements
 
-
 To install requirements:
 
-```setup
-pip install -r requirements.txt
+```bash
+# pip install -r requirements.txt
 ```
 
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
+>1.📋  You should install necessary packages same with [Prothor](https://github.com/allenai/procthor) to acquire houses.
+
+>2.📋  Then install necessary packages while processsing data and evaluating.
+
+>3.📋  All Packages are ordinary and it will cost little time.
 
 ## 1.Acquiring Much House
 
 To acquiring your own house, run this command:
 
 ```
-python generate、.py --input-data <path_to_data> --alpha 10 --beta 20
+python Gethouse.py
 ```
 
->📋  Describe.
+## 2.Processsing house for GT
 
-## 2.Acquiring Metadata
+To Processs your own gt, run this command:
 
-## 3.Acquiring Instruction Tuning Data
+```bash
+python generateGT.py    # leading to easy gt
+python CreateGT.py   # leading to text samples format as 'json'
+```
+
+>📋  All samples are formated in 'json' like [LAMM](https://github.com/OpenGVLab/LAMM).
+
+## 3.Evaluating answers from your own model
 
 ## Evaluation
 
 To evaluate your results on 3DBench, run:
 
 ```eval
-python eval.py --model-file mymodel.json --benchmark 3Dbench
+python common_eval_3d.py    # for visul taskes
+python gpt_eva.py    # for text taskes
 ```
 
->📋  Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
+>📋  You should use your own gpt api to replace the xxxx in gpt_eva.py.
 
 
 ## 🔗 Citation

@@ -86,4 +86,4 @@ If you find our work and this codebase helpful, please consider starring this re
 
 ## Contributing
 
->📋  Pick a licence and describe how to contribute to your code repository. 
+>📋  The project is CC BY NC 4.0 (allowing only non-commercial use) and models trained using the dataset should not be used outside of research purposes.

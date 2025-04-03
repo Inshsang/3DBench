@@ -13,10 +13,6 @@ We introduce 3DBench, a scalable benchmark designed for evaluating 3D-LLMs cover
 
 ## 🔥 News
 
-📆 Coming Soon
-
->📋Code to acquire scalable dateset will be available. 
-
 📆 [2024/4/25]
 
 >1.3DBench is on [arxiv](https://arxiv.org/abs/2404.14678).
